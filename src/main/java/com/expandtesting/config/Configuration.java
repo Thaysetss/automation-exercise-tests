@@ -6,7 +6,6 @@ import org.aeonbits.owner.Config.Sources;
 
 @LoadPolicy(Config.LoadType.MERGE)
 @Sources({
-        "system.properties",
         "classpath:api.properties"
 })
 public interface Configuration extends Config {
