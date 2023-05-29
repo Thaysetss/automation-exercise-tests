@@ -2,7 +2,8 @@ package com.expandtesting.data;
 
 public enum Messages {
 
-    HEALTH_CHECK_MESSAGE("Notes API is Running");
+    HEALTH_CHECK_MESSAGE("Notes API is Running"),
+    USER_REGISTER_CREATED_SUCCESSFULLY("User account created successfully");
 
     private final String message;
 
